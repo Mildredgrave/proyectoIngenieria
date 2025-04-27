@@ -50,5 +50,3 @@ if __name__ == "__main__":
     main()
 
 
-
-#python juego.py piedra piedra tijera
