@@ -29,6 +29,7 @@ class TestComparar(unittest.TestCase):
 
     def test_tijera_vs_tijera(self):
         self.assertEqual(comparar("tijera", "tijera"), "empate")
+        
 
 if __name__ == '__main__':
     unittest.main()

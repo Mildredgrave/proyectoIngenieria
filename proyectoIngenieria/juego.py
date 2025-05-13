@@ -46,6 +46,7 @@ def main():
     else:
         print("Resultado: Empate")
 
+
 if __name__ == "__main__":
     main()
 
