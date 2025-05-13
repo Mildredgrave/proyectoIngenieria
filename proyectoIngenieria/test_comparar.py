@@ -10,7 +10,7 @@ class TestComparar(unittest.TestCase):
         self.assertEqual(comparar("piedra", "papel"), "perdio")
 
     def test_piedra_vs_piedra(self):
-        self.assertEqual(comparar("piedra", "piedra"), "empate")
+        self.assertEqual(comparar("piedra", "lapicero"), "empate")
 
     def test_papel_vs_piedra(self):
         self.assertEqual(comparar("papel", "piedra"), "gano")
@@ -22,7 +22,7 @@ class TestComparar(unittest.TestCase):
         self.assertEqual(comparar("papel", "papel"), "empate")
 
     def test_tijera_vs_papel(self):
-        self.assertEqual(comparar("tijera", "papel"), "gano")
+        self.assertEqual(comparar("tijera", "carton"), "gano")
 
     def test_tijera_vs_piedra(self):
         self.assertEqual(comparar("tijera", "piedra"), "perdio")
